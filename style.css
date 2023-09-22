@@ -1,0 +1,112 @@
+ nav {
+    background-color: red;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+  }
+  
+  
+  nav ul li {
+    display: inline; 
+    margin-right: 40px;
+    float: left;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; 
+  }
+  
+  nav ul li a {
+    font-size: 20px; 
+  }
+
+
+  .image-circle img {
+    width: 200px; /* Установите ширину, как вам удобно */
+    height: 200px; /* Установите высоту, как вам удобно */
+    border-radius: 50%; /* Делает изображение круглым */
+    object-fit: cover; /* Обрезает изображение, чтобы сохранить пропорции */
+    padding: 14px 20px;
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    color:#ddd;
+    font-size: 18px;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+  td:hover {
+    background-color: #646464;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://newsib.net/wp-content/uploads/2022/11/1619602660_3-phonoteka_org-p-kinematograf-fon-3-700x433.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+  h1{
+    color:#ddd
+  }
+  
+  .images img {
+    vertical-align: top;
+    width: 200px;
+  }
+  
+  h2{
+    color:#ddd;
+  }
+  
+  .education th {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .experience th {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .awards {
+    color: white;
+    font-size: 18px;
+  }
+
+  .skills-section {
+    color:white;
+    margin-bottom: 20px;
+  }
+  .skills-title {
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .skills-list {
+    color:white;
+    list-style-type: square;
+    font-size: 18px;
+  }
+
+  
